@@ -1,0 +1,623 @@
+body {
+    color: #9ab;
+    background-color: #14181c;
+    font-family: Graphik-Regular-Web,sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* sfondo sito heder */
+
+.conteiner-wallpaper-header{
+    width: 100%;
+    height: 675px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.conteiner-wallpaper{
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
+    height: 675px;
+}
+.wallpaper{
+    position: absolute;
+    width: 100%;
+    height: 99.95%;
+    background-image: url("./over-the-moon-2020.jpg");
+    background-position: center -121px;
+}
+
+.effect-wallpaper{
+    display: block;
+    position: absolute;
+    z-index: 0;
+    width: 1200px;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 675px;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg,#14181d 0,rgba(20,24,29,.98556487) .97%,rgba(20,24,29,.9451312) 2.07833333%,rgba(20,24,29,.88300656) 3.29666667%,rgba(20,24,29,.80349854) 4.60166667%,rgba(20,24,29,.71091472) 5.96666667%,rgba(20,24,29,.60956268) 7.365%,rgba(20,24,29,.50375) 8.77166667%,rgba(20,24,29,.39778426) 10.16%,rgba(20,24,29,.29597303) 11.505%,rgba(20,24,29,.20262391) 12.78%,rgba(20,24,29,.12204446) 13.95833333%,rgba(20,24,29,.05854227) 15.01666667%,rgba(20,24,29,.01642493) 15.92833333%,rgba(20,24,29,0) 16.66666667%,rgba(20,24,29,0) 83.33333333%,rgba(20,24,29,.01642493) 84.07166667%,rgba(20,24,29,.05854227) 84.98333333%,rgba(20,24,29,.12204446) 86.04166667%,rgba(20,24,29,.20262391) 87.22%,rgba(20,24,29,.29597303) 88.495%,rgba(20,24,29,.39778426) 89.84%,rgba(20,24,29,.50375) 91.22833333%,rgba(20,24,29,.60956268) 92.635%,rgba(20,24,29,.71091472) 94.03333333%,rgba(20,24,29,.80349854) 95.39833333%,rgba(20,24,29,.88300656) 96.70333333%,rgba(20,24,29,.9451312) 97.92166667%,rgba(20,24,29,.98556487) 99.03%,#14181d),linear-gradient(0deg,#14181d 0,#14181d 21.48148148%,rgba(20,24,29,.98556487) 23.63703704%,rgba(20,24,29,.9451312) 26.1%,rgba(20,24,29,.88300656) 28.80740741%,rgba(20,24,29,.80349854) 31.70740741%,rgba(20,24,29,.71091472) 34.74074074%,rgba(20,24,29,.60956268) 37.84814815%,rgba(20,24,29,.50375) 40.97407407%,rgba(20,24,29,.39778426) 44.05925926%,rgba(20,24,29,.29597303) 47.04814815%,rgba(20,24,29,.20262391) 49.88148148%,rgba(20,24,29,.12204446) 52.5%,rgba(20,24,29,.05854227) 54.85185185%,rgba(20,24,29,.01642493) 56.87777778%,rgba(20,24,29,0) 58.51851852%);
+}
+
+/* menu e logo header*/
+
+.conteiner-menu{
+    height: 72px;
+    position: relative;
+}
+
+.conteiner-menu section {
+    width: 950px;
+    height: 72px;
+    margin: 0 auto;
+    position: relative;
+}
+.logo{
+    width: 273px;
+    height: 70px;
+    display: inline-block;
+    background-position: -350px 0;
+}
+.logo span{
+    height: 21px;
+    width: 20px;
+    position: absolute;
+    border-radius: 50%;
+    top: 14px;
+}
+#arancione{
+    background-color: rgb(255, 128, 0);
+}
+#verde{
+    background-color: rgb(0, 224, 84);
+    margin-left: 18px;
+    border-left: 2px solid white;
+    border-radius: 50%;
+}
+#blu {
+    background-color: rgb(64, 188, 244);
+    margin-left: 37px;
+    border-left: 2px solid white;
+    border-radius: 50%;
+}
+
+.logo h1 {
+    cursor: pointer;
+    top: -22px;
+    margin-left: 70px;
+    position: absolute;
+    color: white;
+    font-size: 29px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.menu{
+    position: absolute;
+    right: 155px;
+    top: 22px;
+}
+
+.menu-ul{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.menu-li {
+    font-size: 11.5px;
+    float: left;
+    list-style: none;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .07692308em;
+    color: #d8e0e8;
+    font-weight: 800;
+    padding: 8px;
+    line-height: 0;
+}
+.menu-li:hover{
+    color: white;
+    cursor: pointer;
+}
+.search{
+    width: 140px;
+    position: absolute;
+    right: 0;
+    top: 16px;
+    height: 30px;
+}
+
+.search input {
+    position: relative;
+    width: 95px;
+    background-color: hsl(0deg 0% 56% / 52%);
+    border-radius: 15px;
+    box-shadow: none;
+    font-size: 15px;
+    padding: 6px 30px 6px 10px;
+    border: none;
+    color: white;
+    outline: none;
+    appearance: none;
+}
+
+.search input:hover{
+    background-color: rgba(253, 253, 253, 0.829);
+}
+
+i.fas.fa-search {
+    position: absolute;
+    right: 15px;
+    bottom: 9px;
+    color: white;
+    font-size: 14px;
+}
+
+.effect-header{
+    position: absolute;
+    top: -8px;
+    left: 0;
+    right: 0;
+    height: 95px;
+    opacity: .7;
+    background-color: transparent;
+    background-repeat: repeat-x;
+    background-image: linear-gradient(180deg,#14181c 0,rgba(20,24,28,.94460641) 16.56%,rgba(20,24,28,.80174927) 30.85%,rgba(20,24,28,.60641399) 43.77%,rgba(20,24,28,.39358601) 56.23%,rgba(20,24,28,.19825073) 69.15%,rgba(20,24,28,.05539359) 83.44%,rgba(20,24,28,0));
+}
+
+/* contenuto sito */
+
+.content-site{
+    background-image: none;
+    background: #14181c;
+    padding: 30px 0;
+}
+
+.content{
+    padding-top: 300px;
+    position: relative;
+    width: 950px;
+    margin: 0 auto;
+}
+
+.title{
+    text-align: center;
+    font-size: 1.30769231rem;
+    line-height: 1.52941176;
+    margin-top: -2.30769231rem;
+    margin-bottom: 4.61538462rem;
+    font-family: inherit;
+    vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+.title h2 {
+    font-family: TiemposHeadlineWeb-Bold,Georgia,serif;
+    font-weight: 900;
+    color: white;
+    font-size: 37px;
+    letter-spacing: -2px;
+    line-height: 50px;
+}
+
+.content .create-account {
+    text-align: center;
+    display: block;
+    width: 280px;
+    height: 27px;
+    margin: auto;
+    background-color: #00c030;
+    border-radius: 5px;
+    padding-top: 7px;
+    letter-spacing: 1px;
+}
+
+.create-account a{
+    padding: 2px;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.create-account:hover{
+    background-color: #00a028;
+}
+
+.piattaforme{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.piattaforme p{
+    letter-spacing: 1px;
+    color: #789;
+    font-size: 17px;
+    display: inline-block;
+    margin-bottom: .70588235em;
+}
+
+.piattaforme a{
+    color: #789;
+    margin-left: .25em;
+    width: 60px;
+    display: inline-flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.piattaforme a i:hover{
+    color: rgb(156, 166, 175);
+}
+
+.fa-apple:before {
+    content: "\f179";
+    vertical-align: middle;
+}
+.fa-android:before {
+    content: "\f17b";
+    vertical-align: middle;
+}
+
+/* film */
+
+.content-films {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 50px;
+}
+
+.content-films .film{
+    position: relative;
+    width: 150px;
+    height: 225px;
+}
+
+.content-films a img{
+    width: 150px;
+    height: 225px;
+}
+
+img{
+    border-radius: 3px;
+    border: 1px solid #ffffff6b;
+}
+
+.film{
+    border: 3px solid transparent;
+    border-radius: 3px;
+}
+
+.film:hover{
+    border-color:  #1bca47;
+}
+
+.content-films .film:hover .cover-img{
+    display: block;
+}
+
+.cover-img{
+    display: none;
+    position: absolute;
+    width: 110px;
+    height: 180px;
+    transform: translateX(-50%);
+    left: 50%;
+    background-color: #000000ba;
+    top: 37px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.cover-img i{
+    padding-top: 5px;
+    font-size: 40px;
+    display: block;
+}
+
+.cover-img p {
+    line-height: 0;
+    font-size: 27px;
+    color: white;
+    font-family: serif;
+    margin-top: 20px;
+}
+
+.cover-img .fa-eye{
+    color: rgb(0, 224, 84);
+}
+.cover-img .fa-heart{
+    color: rgb(255, 128, 0);
+}
+
+/* banner */
+
+.banner{
+    width: 100%;
+    height: 100px;
+    padding-bottom: 25px;
+}
+
+/* guida al sito */
+.title-guide {
+    font-size: 13px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.content-guide{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+.guide{
+    display: block;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    background: #456;
+    width: 310px;
+    height: 110px;
+    cursor: pointer;
+}
+
+.guide i {
+    font-size: 40px;
+    padding: 25px;
+    display: -webkit-inline-box;
+    width: 15px;
+    height: 15px;
+}
+
+.guide p {
+    font-size: 13px;
+    line-height: 1.5;
+    color: #def;
+    margin: -35px 0px 0px 90px;
+    width: 191px;
+    display: block;
+    letter-spacing: 1px;
+}
+
+.guide.green:hover {
+    color: white;
+    background: rgb(0, 224, 84);
+}
+
+.guide.rose:hover {
+    color: white;
+    background: rgb(255, 128, 0);
+}
+
+.guide.blu:hover {
+    color: white;
+    background: rgb(64, 188, 244);
+}
+
+/* film recensiti */
+
+.title-guide.reviewed {
+    border-bottom: 1px solid #456;
+    letter-spacing: .075em;
+    margin-top: 0;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+}
+
+.content-film-reviewed{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.content-film-reviewed .film{
+    width: 70px;
+    height: 100px;
+}
+
+.content-film-reviewed .film img {
+    width: 70px;
+    height: 100px;
+}
+
+h3 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 200;
+}
+
+h4{
+    font-weight: 100;
+    text-align: center;
+    line-height: 1px;
+    padding-bottom: 40px;
+}
+
+h4 strong{
+    color: white;
+    cursor: pointer;
+}
+
+/* recensioni */
+
+.popular-reviewed{
+    width: 640px;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.popular-lists {
+    width: 220px;
+    display: inline-block;
+    margin-left: 75px;
+}
+
+h2{
+    width: 100%;
+    position: relative;
+}
+
+h2 p {
+    position: absolute;
+    right: 0;
+    top: -8px;
+    cursor: pointer;
+    font-size: 11px;
+}
+
+.content-reviewed {
+    display: flex;
+}
+
+.reviewed .film{
+    width: 70px;
+    height: 100px;
+    display: inline-block;
+}
+
+.reviewed .film img {
+    width: 70px;
+    height: 100px;
+}
+
+.content-utente {
+    float: right;
+    width: 540px;
+    margin-right: 10px;
+    border-bottom: 1px solid #808080a6;
+}
+
+.reviewed h3, label {
+    margin: 2px;
+    text-align: left;
+}
+
+.reviewed h3{
+    font-family: TiemposHeadlineWeb-Bold,Georgia,serif;
+    color: white;
+    font-size: 21px;
+    letter-spacing: -1px;
+    font-weight: 700;
+}
+.reviewed label{
+    color: #9ab;
+    font-family: Graphik-Regular-Web,sans-serif;
+    font-size: 17.5px;
+    font-weight: 200;
+} 
+
+.utente{
+    margin-top: -15px;
+}
+
+.utente img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.utente h5{
+    display: inline-block;
+    vertical-align: super;
+}
+
+.utente i {
+    font-size: 11px;
+    vertical-align: super;
+}
+
+.utente .fa-star{
+    color: rgb(0, 224, 84);
+
+}
+
+.utente .fa-comment-alt {
+    padding-left: 5px;
+}
+
+.reviewed-utente{
+    font-family: TiemposTextWeb-Regular,Georgia,serif;
+    padding-bottom: 10px;
+    line-height: 1.5;
+}
+
+.content-utente .fa-heart{
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+.reviewed{
+    padding-bottom: 150px;
+}
+
+/* popular list */
+
+.covers-list {
+    display: flex;
+    height: 106px;
+}
+
+.p-lists {
+    margin-right: -36px;
+}
+
+.popular-lists h3 {
+    font-size: 17px;
+    line-height: 1;
+    color: white;
+    letter-spacing: -1px;
+    margin-right: 35px;
+    margin-top: 5px;
+}
+
+.popular-lists .utente{
+    margin-top: -30px;
+}
+
+.title-guide.reviewed.popular {
+    padding-top: 40px;
+}
+
+.title-guide.reviewed.popular p {
+    top: 30px;
+}
+
+.popular-utent {
+    padding-top: 20px;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: white;
+    border-bottom: 1px solid #808080a6;
+}
+
+.popular-utent p {
+    margin: -25px 0 0 31px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    color: gray;
+    padding-bottom: 9px;
+}
+
+.popular-utent img {
+    width: 34px;
+    height: 30px;
+}
