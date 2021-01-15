@@ -1,7 +1,6 @@
 # Clone-Letterboxd
 clone letterboxd site... with the only use of scss and html5.
 
-https://batman110391.github.io/Clone-Letterboxd/
 
 PREVIEW;
 
